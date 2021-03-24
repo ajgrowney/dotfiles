@@ -1,0 +1,12 @@
+alias dedit="vim ~/dotfiles/.bash_dotnetalias"
+alias dn="dotnet"
+alias dnb="dotnet build"
+alias dnt="dotnet test"
+alias dnbtu="dotnet build *.UnitTests/ && dotnet test *.UnitTests/"
+alias dnbti="dotnet build *.IntegrationTests/ && dotnet test *.IntegrationTests/"
+alias dnr="dotnet restore"
+alias dnn="dotnet new"
+alias dntcc="dotnet test -p:CollectCoverage=True --filter TestCategory=Unit"
+alias dntcci="dotnet test -p:CollectCoverage=True --filter TestCategory=Integration"
+alias dnh="dotnet help"
+

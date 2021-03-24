@@ -1,0 +1,27 @@
+alias rmcoverage="rm */coverage.json"
+alias curlaz="curl -u GrowneyA@atonix.com:$Asset360ApiKey"
+# Dotfiles Editing
+alias editalias="vim ~/dotfiles/.bash_alias"
+alias editdot="vim ~/dotfiles"
+alias lsa="ls -a"
+alias lsb="ls -a ~/.bash* ~/dotfiles"
+alias lsdot="lsa ~/dotfiles"
+# Kubernetes Aliases
+# Python Aliases
+alias cc="~/pycoverlet.exe"
+alias atxdep="~/AtxDependencies.exe"
+
+# Change to Code Directories
+alias ca="cd ~/Code/atx"
+alias cpy="cd ~/Code/Python"
+alias ccs="cd ~/../../TFS/CurSprint"
+alias lsatx="for d in ~/Code/atx/*; do echo \"$d\"; cd \"$d\"; ls; cd ..; done"
+
+# Programs
+alias onenote='"C:/Program Files (x86)/Microsoft Office/root/Office16/ONENOTE.EXE"'
+alias findpi="nmap -sn 192.168.0.0/24"
+alias swagger-codegen="java -jar ~/Code/Java/swagger-codegen-cli-3.0.18.jar"
+alias atx-auth="~/x-atx-auth.exe"
+# Demos
+alias wikiBot="py ~/Code/atx/atx-utility-dev/atx-utility-nugetwiki/writeToWiki.py initial write"
+alias checkBuilds="py ~/Code/AzureApi/monitorBuilds.py"
